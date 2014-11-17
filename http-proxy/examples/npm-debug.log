@@ -1,0 +1,88 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'node-http-proxy' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.32
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 verbose cache add [ 'node-http-proxy', null ]
+6 verbose cache add name=undefined spec="node-http-proxy" args=["node-http-proxy",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: 'node-http-proxy',
+7 verbose parsed url   path: 'node-http-proxy',
+7 verbose parsed url   href: 'node-http-proxy' }
+8 silly lockFile a959cfe6-node-http-proxy node-http-proxy
+9 verbose lock node-http-proxy C:\Users\Ken\AppData\Roaming\npm-cache\a959cfe6-node-http-proxy.lock
+10 silly lockFile a959cfe6-node-http-proxy node-http-proxy
+11 silly lockFile a959cfe6-node-http-proxy node-http-proxy
+12 verbose addNamed [ 'node-http-proxy', '' ]
+13 verbose addNamed [ null, '*' ]
+14 silly lockFile 59ea8b07-node-http-proxy node-http-proxy@
+15 verbose lock node-http-proxy@ C:\Users\Ken\AppData\Roaming\npm-cache\59ea8b07-node-http-proxy.lock
+16 silly addNameRange { name: 'node-http-proxy', range: '*', hasData: false }
+17 verbose request where is /node-http-proxy
+18 verbose request registry https://registry.npmjs.org/
+19 verbose request id dbe71c685faa0060
+20 verbose url raw /node-http-proxy
+21 verbose url resolving [ 'https://registry.npmjs.org/', './node-http-proxy' ]
+22 verbose url resolved https://registry.npmjs.org/node-http-proxy
+23 verbose request where is https://registry.npmjs.org/node-http-proxy
+24 info trying registry request attempt 1 at 22:01:09
+25 http GET https://registry.npmjs.org/node-http-proxy
+26 http 404 https://registry.npmjs.org/node-http-proxy
+27 verbose headers { date: 'Tue, 04 Nov 2014 06:01:09 GMT',
+27 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+27 verbose headers   'content-type': 'application/json',
+27 verbose headers   'cache-control': 'max-age=0',
+27 verbose headers   'content-length': '52',
+27 verbose headers   'accept-ranges': 'bytes',
+27 verbose headers   via: '1.1 varnish',
+27 verbose headers   age: '0',
+27 verbose headers   'x-served-by': 'cache-sjc3125-SJC',
+27 verbose headers   'x-cache': 'MISS',
+27 verbose headers   'x-cache-hits': '0',
+27 verbose headers   'x-timer': 'S1415080869.563172,VS0,VE36',
+27 verbose headers   'keep-alive': 'timeout=10, max=50',
+27 verbose headers   connection: 'Keep-Alive' }
+28 silly registry.get cb [ 404,
+28 silly registry.get   { date: 'Tue, 04 Nov 2014 06:01:09 GMT',
+28 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+28 silly registry.get     'content-type': 'application/json',
+28 silly registry.get     'cache-control': 'max-age=0',
+28 silly registry.get     'content-length': '52',
+28 silly registry.get     'accept-ranges': 'bytes',
+28 silly registry.get     via: '1.1 varnish',
+28 silly registry.get     age: '0',
+28 silly registry.get     'x-served-by': 'cache-sjc3125-SJC',
+28 silly registry.get     'x-cache': 'MISS',
+28 silly registry.get     'x-cache-hits': '0',
+28 silly registry.get     'x-timer': 'S1415080869.563172,VS0,VE36',
+28 silly registry.get     'keep-alive': 'timeout=10, max=50',
+28 silly registry.get     connection: 'Keep-Alive' } ]
+29 silly lockFile 59ea8b07-node-http-proxy node-http-proxy@
+30 silly lockFile 59ea8b07-node-http-proxy node-http-proxy@
+31 error 404 404 Not Found: node-http-proxy
+31 error 404
+31 error 404 'node-http-proxy' is not in the npm registry.
+31 error 404 You should bug the author to publish it
+31 error 404
+31 error 404 Maybe try 'npm search http proxy'
+31 error 404
+31 error 404 Note that you can also install from a
+31 error 404 tarball, folder, or http url, or git url.
+32 error System Windows_NT 6.2.9200
+33 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "node-http-proxy"
+34 error cwd U:\nodejs\http-proxy\examples
+35 error node -v v0.10.32
+36 error npm -v 1.4.28
+37 error code E404
+38 verbose exit [ 1, true ]

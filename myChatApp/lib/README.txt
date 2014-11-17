@@ -1,0 +1,1 @@
+The directory lib is for the application's logic.
