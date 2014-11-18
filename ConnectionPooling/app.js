@@ -12,42 +12,22 @@ var connection =  mysql.createPool({
   //connection.query("use sakila");
   connection.getConnection(function(err, connection){
 	connection.query( "select * from actor",  function(err, rows){
-  	if(err)	
-	{
-  		throw err;
-  	}
-	else{
-  		call(rows);
-  	}
+  	if(err)	return throw err;
+  	call(rows);
   });
   
   connection.query( "select * from country",  function(err, rows){
-  	if(err)	
-	{
-  		throw err;
-  	}
-	else{
-  		call(rows);
-  	}
+  	if(err)	return throw err;
+  	call(rows);
   });
   connection.query( "select * from customer",  function(err, rows){
-  	if(err)	
-	{
-  		throw err;
-  	}
-	else{
-  		call(rows);
-  	}
+  	if(err) return throw err;
+  	call(rows);
   });
   connection.query( "select * from film",  function(err, rows){
-  	if(err)	
-	{
-  		throw err;
-  	}
-	else{
-  		call(rows);
-  	}
-  });
+  	if(err) return throw err;
+	call(rows);
+ });
   connection.release();
 });
 
